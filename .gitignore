@@ -1,0 +1,26 @@
+# Crie o arquivo
+nano .gitignore
+```
+
+Cole isso dentro (para ignorar arquivos desnecessários):
+```
+# Binários compilados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Arquivos de teste
+*.test
+*.out
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Diretorio de test local
+test/
